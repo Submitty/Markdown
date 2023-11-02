@@ -1,0 +1,8 @@
+{
+    "name": "submitty/markdown",
+    "description": "A twig markdown extension",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "league/commonmark": "^2.0.0"
+    }
+}
