@@ -1,8 +1,13 @@
 {
     "name": "submitty/markdown",
     "description": "A twig markdown extension",
+    "license": "BSD-3-Clause",
     "require": {
         "php": "^7.4 || ^8.0",
         "league/commonmark": "^2.0.0"
+    },
+    "require-dev": {
+        "php": "^7.2.5|^8.0",
+        "phpunit/phpunit": "~6.0|~5.0|~8.0"
     }
 }
