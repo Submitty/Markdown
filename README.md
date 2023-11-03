@@ -1,8 +1,9 @@
 Twig-Markdown Extension
-Credits to [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown)
+Credits to [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown) as a template
 
 To report issues for Submitty/Markdown, please file them under the [Submitty/Submitty](https://github.com/Submitty/Submitty) repository.
 
+## Required Markdown
 Minimum league/Commonmark version 2.0.0
 
 ## Objectives
@@ -21,9 +22,7 @@ use Markdown\twig\Extension\MarkdownExtension;
 
 // Based on the league/commonmark example
 $config = [
-    'html_input' => 'escape',
     'allow_unsafe_links' => false,
-    'max_nesting_level' => 10
 ];
 $environment = new Environment($config);
 $environment->addExtension(new CommonMarkCoreExtension());
