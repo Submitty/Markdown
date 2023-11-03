@@ -28,6 +28,7 @@ class PHPLeagueMarkdownEngine
      */
     public function __construct(MarkdownConverter $converter = null)
     {
+        // Default to use CommonMarkConverter
         $this->converter = $converter ?: new CommonMarkConverter();
     }
 
