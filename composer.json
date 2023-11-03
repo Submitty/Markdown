@@ -4,6 +4,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": "^7.4 || ^8.0",
+        "twig/twig": "^2.7.0|^3.0",
         "league/commonmark": "^2.0.0"
     },
     "require-dev": {
