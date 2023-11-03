@@ -3,9 +3,6 @@ Credits to [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown) as a 
 
 To report issues for Submitty/Markdown, please file them under the [Submitty/Submitty](https://github.com/Submitty/Submitty) repository.
 
-## Required Markdown
-Minimum league/Commonmark version 2.0.0
-
 ## Objectives
 - Apply league/commonmark as an Twig Extension
 - Include latex using MathJax
