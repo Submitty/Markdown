@@ -1,6 +1,6 @@
 Twig-Markdown Extension
 
-Credits to [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown) as a template
+Forked from [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown)
 
 To report issues for Submitty/Markdown, please file them under the [Submitty/Submitty](https://github.com/Submitty/Submitty) repository.
 
