@@ -1,4 +1,5 @@
 Twig-Markdown Extension
+
 Credits to [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown) as a template
 
 To report issues for Submitty/Markdown, please file them under the [Submitty/Submitty](https://github.com/Submitty/Submitty) repository.
@@ -32,6 +33,9 @@ twig->addExtension(new MarkdownExtension($engine));
 
 ## See Documentation
 Documentation in Progress
+
 [Developing]()
+
 [Usages]()
+
 [General Documentation](submitty.org)
