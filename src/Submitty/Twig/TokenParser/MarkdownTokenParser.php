@@ -1,4 +1,8 @@
 <?php
+/*
+Orginally from aptoma/twig-markdown extension
+https://github.com/aptoma/twig-markdown
+*/
 
 namespace Submitty\Twig\TokenParser;
 
