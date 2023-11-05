@@ -6,7 +6,6 @@ To report issues for Submitty/Markdown, please file them under the [Submitty/Sub
 
 ## Objectives
 - Apply league/commonmark as an Twig Extension
-- Include latex using MathJax
 
 ## Installation
 In progress
