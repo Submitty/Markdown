@@ -1,0 +1,22 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  run:
+    runs-on: 'ubuntu-latest'
+    strategy:
+      matrix:
+        php-versions: ['7.2', '7.3', '7.4', '8.0']
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+      uses: ramsey/composer-install@v1
+
+    - name: Run Tests
+      run: vendor/bin/phpunit
