@@ -16,6 +16,12 @@ jobs:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
+        php-version: ${{ matrix.php-versions }}
+        coverage: xdebug
+
+    - run: mkdir -p build/logs
+
+    - name: Install composer dependencies
       uses: ramsey/composer-install@v1
 
     - name: Run Tests
