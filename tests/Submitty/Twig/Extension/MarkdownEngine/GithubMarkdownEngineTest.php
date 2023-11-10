@@ -1,8 +1,8 @@
 <?php
 
-namespace Aptoma\Twig\Extension\MarkdownEngine;
+namespace Submitty\Twig\Extension\MarkdownEngine;
 
-use Aptoma\Twig\Extension\MarkdownExtensionTest;
+use Submitty\Twig\Extension\MarkdownExtensionTest;
 use Github\Client;
 
 require_once(__DIR__ . '/../MarkdownExtensionTest.php');

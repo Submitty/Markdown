@@ -1,8 +1,8 @@
 <?php
 
-namespace Aptoma\Twig\Extension\MarkdownEngine;
+namespace Submitty\Twig\Extension\MarkdownEngine;
 
-use Aptoma\Twig\Extension\MarkdownExtensionTest;
+use Submitty\Twig\Extension\MarkdownExtensionTest;
 
 // Require parent class if not autoloaded
 if (!class_exists('\Aptoma\Twig\Extension\MarkdownExtensionTest')) {

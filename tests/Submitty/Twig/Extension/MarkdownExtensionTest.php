@@ -1,8 +1,8 @@
 <?php
 
-namespace Aptoma\Twig\Extension;
+namespace Submitty\Twig\Extension;
 
-use Aptoma\Twig\Extension\MarkdownEngine\MichelfMarkdownEngine;
+use Submitty\Twig\Extension\MarkdownEngine\PHPLeagueMarkdownEngine;
 use PHPUnit\Framework\TestCase;
 
 /**
