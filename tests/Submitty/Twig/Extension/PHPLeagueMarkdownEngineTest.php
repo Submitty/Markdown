@@ -5,16 +5,16 @@ namespace Submitty\Twig\Extension\MarkdownEngine;
 use Submitty\Twig\Extension\MarkdownExtensionTest;
 
 // Require parent class if not autoloaded
-if (!class_exists('\Aptoma\Twig\Extension\MarkdownExtensionTest')) {
+if (!class_exists('\Submitty\Twig\Extension\MarkdownExtensionTest')) {
     require_once(__DIR__ . '/../MarkdownExtensionTest.php');
 }
 
 /**
- * Class PHPLeagueCommonMarkEngineTest
+ * Class PHPLeagueMarkdownEngineTest
  *
  * @author Casey McLaughlin <caseyamcl@gmail.com>
  */
-class PHPLeagueCommonMarkEngineTest extends MarkdownExtensionTest
+class PHPLeagueMarkdownEngineTest extends MarkdownExtensionTest
 {
     protected function getEngine()
     {
