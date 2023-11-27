@@ -70,7 +70,7 @@ class MarkdownTokenParserTest extends TestCase
     {
         $tests = array();
 
-        $body = new Node(array(new TextNode("#Title\n\nparagraph\n", 1)));
+        $body = new Node(array(new TextNode("# Title\n\nparagraph\n", 1)));
         $node = new MarkdownNode($body, 1);
 
         $tests['simple text'] = array($node, <<<EOF
@@ -89,7 +89,7 @@ echo \$this->env->getExtension('Submitty\Twig\Extension\MarkdownExtension')->par
 EOF
             );
 
-        $body = new Node(array(new TextNode("    #Title\n\n    paragraph\n\n        code\n", 1)));
+        $body = new Node(array(new TextNode("    # Title\n\n    paragraph\n\n        code\n", 1)));
         $node = new MarkdownNode($body, 1);
 
         $tests['text with leading indent'] = array($node, <<<EOF
