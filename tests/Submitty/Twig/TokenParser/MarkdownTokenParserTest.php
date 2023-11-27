@@ -48,8 +48,9 @@ class MarkdownTokenParserTest extends TestCase
 
         // Assert Markdown output
         $expectedOutput = "<h1>Title</h1>\n\n<p>paragraph</p>\n\n<pre><code>code\n</code></pre>\n";
-        $this->assertIsString($this->getEngine()->transform($content),$expectedOutput);
-        // $this->assertEquals($expectedOutput, $this->getEngine()->transform($content));
+        $output = $this->getEngine()->transform($content);
+        $this->assertIsString($output,$expectedOutput);
+        $this->assertEquals($output, $this->getEngine()->transform($content));
     }
 
     /**
