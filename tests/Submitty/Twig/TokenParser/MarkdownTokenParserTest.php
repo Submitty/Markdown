@@ -32,8 +32,8 @@ class MarkdownTokenParserTest extends TestCase
      */
     public function testMarkdownPrepareBehavior()
     {
-        $body = "    #Title\n\n    paragraph\n\n        code";
-        $bodyPrepared = "#Title\n\nparagraph\n\n    code";
+        $body = "    # Title\n\n    paragraph\n\n        code";
+        $bodyPrepared = "# Title\n\nparagraph\n\n    code";
 
         ob_start();
         echo $body;
