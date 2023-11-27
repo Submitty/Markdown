@@ -5,6 +5,12 @@ namespace Submitty\Twig\Extension;
 use Submitty\Twig\Extension\MarkdownEngine\PHPLeagueMarkdownEngine;
 use PHPUnit\Framework\TestCase;
 
+
+// Require parent class if not autoloaded
+if (!class_exists('\Submitty\Twig\Extension\MarkdownExtensionTest')) {
+    require_once(__DIR__ . '/../MarkdownExtensionTest.php');
+}
+
 /**
  * @author Gunnar Liun <gunnar@aptoma.com>
  */
@@ -28,7 +34,7 @@ class MarkdownExtensionTest extends TestCase
 
     protected function getEngine()
     {
-        return new MichelfMarkdownEngine();
+        return new PHPLeagueMarkdownEngine();
     }
 
     protected function getTemplate($template)

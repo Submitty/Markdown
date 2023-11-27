@@ -63,7 +63,7 @@ class MarkdownTokenParserTest extends TestCase
 
     protected function getEngine()
     {
-        return new MichelfMarkdownEngine();
+        return new PHPLeagueMarkdownEngine();
     }
 
     public function getTests()
