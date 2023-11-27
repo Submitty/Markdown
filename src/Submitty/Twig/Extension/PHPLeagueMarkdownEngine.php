@@ -40,7 +40,7 @@ class PHPLeagueMarkdownEngine
      */
     public function transform($content)
     {
-        return $this->converter->convertToHtml($content);
+        return $this->converter->convert($content);
     }
 
     /**
