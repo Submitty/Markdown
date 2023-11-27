@@ -2,7 +2,7 @@
 
 namespace Submitty\Twig\Extension;
 
-use Submitty\Twig\Extension\MarkdownEngine\PHPLeagueMarkdownEngine;
+use Submitty\Twig\Extension\PHPLeagueMarkdownEngine;
 use PHPUnit\Framework\TestCase;
 
 /**
