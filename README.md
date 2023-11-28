@@ -10,7 +10,25 @@ To report issues for Submitty/Markdown, please file them under the [Submitty/Sub
 - Apply league/commonmark as an Twig Extension
 
 ## Installation
-In progress
+```json
+{
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Submitty/Markdown.git"
+    }
+    ],
+    "require":{
+        "league/commonmark": "2.4.0",
+        "submitty/markdown": "version"
+    }
+}
+```
+```bash
+composer install
+# or
+composer update
+```
 
 ## Example
 ```php
@@ -34,9 +52,4 @@ twig->addExtension(new MarkdownExtension($engine));
 
 ## See Documentation
 Documentation in Progress
-
-[Developing]()
-
-[Usages]()
-
 [General Documentation](submitty.org)
