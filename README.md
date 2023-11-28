@@ -1,3 +1,5 @@
+![PHPUnit Test](https://github.com/Submitty/Markdown/actions/workflows/test.yml/badge.svg)
+
 Twig-Markdown Extension
 
 Forked from [aptoma/twig-markdown](https://github.com/aptoma/twig-markdown)
