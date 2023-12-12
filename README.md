@@ -52,4 +52,4 @@ twig->addExtension(new MarkdownExtension($engine));
 
 ## See Documentation
 Documentation in Progress
-[General Documentation](submitty.org)
+[General Documentation](www.submitty.org)
